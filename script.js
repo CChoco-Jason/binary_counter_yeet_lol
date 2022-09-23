@@ -46,7 +46,7 @@ button.addEventListener('click', ()=>{
     }
     
     if(numbers > 0){
-        number[0].innerHTML = 'HELL';
+        number[0].innerHTML = 'BRUH';
         number[1].innerHTML = 'NO';
         number[2].innerHTML = 'GO';
         number[3].innerHTML = 'AWAY';
