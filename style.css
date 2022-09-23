@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    /* sets box sizing to border box*/
+    margin: 0;
+    /*sets margin*/
+    padding: 0;
+    /*sets padding*/
+    overflow: hidden;
+    /*hides overflow*/
+}
+
+.container{
+    /* class container*/
+    background-color: black;
+    /*sets background color*/
+    width: 100vw;
+    /* 100 view width*/
+    height: 100vh;
+    /*100 view height*/
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+    
+}
+
+.container-gamebox{
+    /*links to class container-gamebox inside class container inside index.html*/
+    background: blue; 
+    width: 800px;
+    /*sets width as 100 pixels*/
+    height: 700px;
+    /*sets height as 100 pixels*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: #ffffff;
+    
+    
+}
+
+.header{
+    margin-top: 10px;
+    font-size: 30px;
+    color: #ffffff; 
+    
+
+
+}
+
+.input{
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.number{
+
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color:blueviolet; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.binarynum {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
